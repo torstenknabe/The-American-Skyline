@@ -146,6 +146,22 @@ p {
 	text-align: center;
 }
 
+.alertbar {
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+	background: #921810;
+	text-align: center;
+}
+
+.alertbar p {
+	display: inline-block;
+	font-family: 'Lato', helvetica, arial, sans-serif;
+	font-size: 22px;
+	padding: 0 10px;
+	text-align: center;
+}
+
 .instagram {
 	width: 100%;
 	padding: 20px 0 60px;
@@ -157,7 +173,7 @@ p {
 	font-size: 36px;
 }
 
-.instagram a {
+.instagram a, .alertbar a {
 	width: 200px;
 	display: block;
 	border: 1px solid white;
@@ -171,9 +187,14 @@ p {
 	font-family: 'Lato', helvetica, arial, sans-serif;
 }
 
-.instagram a:hover {
+.instagram a:hover, .alertbar a:hover {
 	color: #0A4885;
 	background: white;
+}
+
+.alertbar a {
+	margin: 0 auto 20px;
+	display: inline-block;
 }
 
 .legal {
